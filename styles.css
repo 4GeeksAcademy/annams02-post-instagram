@@ -1,34 +1,47 @@
-
-.post{
-    background:paleturquoise;
+body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.post-header{
-    width: 100px;
-    height: 400px;
+.post{
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     background-color: wheat;
     margin: 30px 0 0 0;
 }
 
-.left{
+.post-header{
+    flex-basis: 10%;
+    display: flex;
+    padding: 10px;
+    font-size: 40%;
+    
+}
+
+.left {
     flex-basis: 10%;
     display: flex;
     padding: 10px;
     font-size: 80%;
 }
-
 .right {
-    float:right
-
+    margin-left: auto;
 }
+
+
 .post-img{
     width: 100%;
     flex-basis: 80%;
     overflow: hidden;
+
+}
+
+img {
+    width:auto
+
+
 }
