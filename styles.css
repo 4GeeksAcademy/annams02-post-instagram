@@ -1,42 +1,41 @@
 body{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .post{
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
-    background-color: wheat;
-    margin: 30px 0 0 0;
+
+
+    
 }
 
 .post-header{
-    flex-basis: 10%;
     display: flex;
     padding: 10px;
-    font-size: 40%;
+    
     
 }
 
 .left {
+    justify-content: flex-start;
     flex-basis: 10%;
-    display: flex;
     padding: 10px;
-    font-size: 80%;
+    font-size: 100%;
 }
 .right {
-    margin-left: auto;
+    justify-content: flex-end;
 }
 
 
 .post-img{
     width: 100%;
     flex-basis: 80%;
-    overflow: hidden;
+    align-self: center;
 
 }
 
