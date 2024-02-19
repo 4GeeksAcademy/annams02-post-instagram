@@ -1,0 +1,34 @@
+
+.post{
+    background:paleturquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-header{
+    width: 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    margin: 30px 0 0 0;
+}
+
+.left{
+    flex-basis: 10%;
+    display: flex;
+    padding: 10px;
+    font-size: 80%;
+}
+
+.right {
+    float:right
+
+}
+.post-img{
+    width: 100%;
+    flex-basis: 80%;
+    overflow: hidden;
+}
