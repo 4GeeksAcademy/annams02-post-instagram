@@ -3,10 +3,7 @@ body{
     box-sizing: border-box;
 }
 
-header {
-display: flex;
-justify-content: center;
-}
+
 
 
 .cajapadre {
@@ -26,15 +23,30 @@ justify-content: center;
     margin: 30px 0 0 0;
 }
 
-.titulo {
-    flex-basis: 10%;
-    display: flex;
+.navbar {
+    
+    justify-content: space-between;
     padding: 10px;
     font-size: 80%;
+    display:flex;
+    margin-right: 20px;
+    
+   
+
+}
+.Rigoberto {
+    
+    display:flex;
+
 }
 
+.titulo2 {
+    justify-content: flex-end;
+    margin-left: auto;
+
+}
 .option {
-    margin-left:auto;
+    justify-content: ;
     color: black;
 }
 
@@ -62,11 +74,17 @@ justify-content: center;
 }
 
 .icons {
+    
     display: flex;
+    justify-content: space-between;
+
 }
 
 .right{
     justify-content: flex-end;
-    display:flex;
+   margin-left: auto;
+    
+   
+
 
 }
