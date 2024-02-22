@@ -1,6 +1,7 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -12,6 +13,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding:30px;
+
 }
 
 .caja1 {
@@ -30,13 +33,16 @@ body{
     font-size: 80%;
     display:flex;
     margin-right: 20px;
-    
-   
 
 }
 .Rigoberto {
     
     display:flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.Rigoberto p {
+    margin:0;
 
 }
 
@@ -58,8 +64,9 @@ body{
 }
 
 .img {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
 
 }
 .post-body {
@@ -68,11 +75,18 @@ body{
 }
 .coment {
     flex-basis: 10%;
-   
+    margin:5px;
+
     font-size: 80%;
 
 }
 
+ p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
+
+}
 .icons {
     
     display: flex;
@@ -83,8 +97,12 @@ body{
 .right{
     justify-content: flex-end;
    margin-left: auto;
+
+}
+
+.icono1 {
+    display:flex;
+    align-items: center;
+    font-size: 30px;
     
-   
-
-
 }
