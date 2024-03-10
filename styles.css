@@ -3,10 +3,6 @@ body{
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
-
-
-
-
 .cajapadre {
     background:black;
     display: flex;
@@ -14,9 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     padding:30px;
-
 }
-
 .caja1 {
     width: 400px;
     height: 500px;
@@ -24,85 +18,65 @@ body{
     flex-direction: column;
     background-color: white;
     margin: 30px 0 0 0;
+    border-radius: 10px;
 }
-
 .navbar {
-    
     justify-content: space-between;
     padding: 10px;
     font-size: 80%;
     display:flex;
     margin-right: 20px;
-
 }
-.Rigoberto {
-    
+.Rigoberto { 
     display:flex;
     flex-direction: column;
     margin-left: 5px;
 }
 .Rigoberto p {
     margin:0;
-
 }
-
 .titulo2 {
     justify-content: flex-end;
     margin-left: auto;
-
 }
 .option {
-    justify-content: ;
     color: black;
+    font-size: 130%;
 }
-
 .pic {
     width: 100%;
     height:100%;
     flex-basis: 80%;
-    overflow: auto;
+    
 }
-
 .img {
     width: 100%;
     height: 100%;
     object-fit:cover;
-
 }
 .post-body {
     margin:8px;
-
 }
 .coment {
     flex-basis: 10%;
-    margin:5px;
-
+    margin: 8px;
     font-size: 80%;
-
+    text-align: justify;
 }
-
- p {
+p {
     margin-top: 3px;
     margin-bottom: 3px;
-    
-
 }
-.icons {
-    
+.icons { 
     display: flex;
     justify-content: space-between;
-
 }
-
 .right{
     justify-content: flex-end;
    margin-left: auto;
-
 }
-
 .icono1 {
     display:flex;
     align-items: center;
-    font-size: 30px;
-    
+    font-size: 30px;   
 }
